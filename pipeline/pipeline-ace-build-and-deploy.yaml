@@ -6,7 +6,7 @@ spec:
   params:
     - name: git-url
       description: The git repository URL to clone from
-      default: 'https://github.com/isalkovic/ACE_Tekton_Operators.git'
+      default: 'https://github.com/sreckoj/ACE_Tekton_Operators.git'
       type: string
     - name: git-revision
       description: Revision to checkout. (branch, tag, sha, ref, etc...)
@@ -30,15 +30,15 @@ spec:
       type: string
     - name: deployment-namespace
       description: The name of the Openshift namespace/project , where the integration server and configuration will be deployed
-      default: ace-demo-tekton
+      default: cp4i
       type: string
     - name: nexus-server-base-url
       description: The Base URL of the Nexus server where the bar file will be uploaded
-      default: http://nexus-route-ace-demo-tekton.apps.ocp12.tec.cz.ibm.com
+      default: http://nexus-cp4i.apps.ocp48.tec.uk.ibm.com
       type: string
     - name: nexus-repository-name
       description: The name of the Nexus repository, where the bar file will be uploaded
-      default: ace-demo-tekton
+      default: demo-repository
       type: string
     - name: nexus-path
       description: The path of the Nexus repository, where the bar file will be uploaded, for example - "org/dept"

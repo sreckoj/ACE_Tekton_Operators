@@ -9,7 +9,7 @@ spec:
       description: The name of the bar to be built, without the .bar extension
       type: string
     - name: barVersion
-      default: '69'
+      default: '1'
       description: The version of the bar to be built, without the .bar extension - will be appended to bar name
       type: string
     - name: aceToolkitCodeDirectory
@@ -17,7 +17,7 @@ spec:
       description: The base directory containing ACE projects
       type: string
   steps:
-    - image: 'image-registry.openshift-image-registry.svc:5000/ace-demo/ace-with-zip'
+    - image: 'image-registry.openshift-image-registry.svc:5000/cp4i/ace-builder'
       name: run-ibm-int
       securityContext:
         runAsUser: 1001
