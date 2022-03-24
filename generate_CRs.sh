@@ -20,7 +20,7 @@ CRs_generated_folder=/workspace/output/operator_resources_CRs/generated
 
 BARurl=${NEXUS_SERVER_BASE_URL}/repository/${NEXUS_REPOSITORY_NAME}/${NEXUS_PATH}/${BAR_VERSION}/${BAR_NAME}-${BAR_VERSION}.bar
 
-su -c mkdir ${CRs_generated_folder}
+mkdir ${CRs_generated_folder}
 mkdir ${CRs_generated_folder}/configurations
 
 # Create the Integration Server CR in any case
