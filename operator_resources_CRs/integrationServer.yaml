@@ -39,3 +39,4 @@ spec:
   replicas: 1
   barURL: replace-With-Bar-URL
   configurations:
+    - demo1
