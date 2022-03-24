@@ -1,4 +1,7 @@
 # Env variables DEPLOYMENT_NAMESPACE, BAR_NAME , INTEGRATION_SERVER_NAME NEXUS_SERVER_BASE_URL, NEXUS_REPOSITORY_NAME ,NEXUS_PATH and BAR_VERSION are set in the pipeline/pipelinerun/task definitions
+echo "---------------------------------"
+whoami
+echo "---------------------------------"
 
 PathToConfigFolder=/workspace/output/initial-config
 
