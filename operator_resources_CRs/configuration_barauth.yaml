@@ -7,9 +7,5 @@ metadata:
     labelname: apis
 spec:
   data: replace-with-barauth-base64
-  description: >-
-    Requirement when using external bar repo - even if no auth required,
-    configuration is required
-  secretName: demo1-52vf2
+  description: "Requirement when using external bar repo - even if no auth required, configuration is required"
   type: barauth
-  version: 12.0.3.0-r1
